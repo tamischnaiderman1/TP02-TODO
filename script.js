@@ -9,7 +9,6 @@ function presionar (e) {
         Tarea.completo = false
         Tarea.fin = -1
 
-
   let nuevaTarea = document.getElementById("newCheckbox").value
 
         Tarea.valor = nuevaTarea
@@ -33,6 +32,7 @@ function presionar (e) {
 
 
       tarea.appendChild(checkbox)
+      document.getElementById("divVacio").appendChild(tarea)
       tarea.appendChild(contenedor)
 
       Tarea.htmlTag = tarea

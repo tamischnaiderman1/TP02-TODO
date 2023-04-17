@@ -2,3 +2,57 @@
     text-decoration: line-through
 }
 
+body{
+    padding: 10px ;
+
+}
+
+p{
+    display: inline-block;
+    margin-left: 8px;
+    padding-top: 20px;
+
+
+}
+.checkbox{
+    display: inline-block;
+    margin-left: 8px;
+    padding-top: 20px;
+
+}
+
+.botoncito{
+    color: #625035;
+    background-color: #d9c5a7;
+    border-color: #625035;
+    border-radius: 7px;
+    padding: 1%;
+}
+
+.tareita{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #625035;
+    text-align: center;
+    white-space: nowrap;
+    background-color: blanchedalmond;
+    border-radius: .25rem;
+}
+
+li {
+    background: #d9c5a7;
+    color: #625035;
+    padding: 3px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    list-style: none;
+}
+
+.bla{
+    text-align: center;
+}
